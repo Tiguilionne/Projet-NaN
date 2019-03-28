@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8" content="width=widht-device,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<script type="text/javascript" src="por.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<title> premiere page</title>
+</head>
+<body  style="background-color: #FF338D" >
+<div class="container-fluide" style="background-color: pink">
+<div >
+	
+</div>
+</div> 
+
+    
+<nav style=" position: fixed; top: 0; width: 100%; z-index: 22" class="navbar navbar-expand-lg navbar-light bg-info fixed-top" style="background-color: #CAFF33" >
+	 <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="nav navbar-nav" styl>
+                    <li style="background-color: orange"><a href="est.html" id="nor" onmouseover="chai()"  onmouseout="tru()">NORD</a></li>
+                    <li style="background-color: "><a href="sud.html" id="sud" onmouseover="sudc()" onmouseout="sudr()">SUD</a></li>
+                    <li style="background-color: 008000"><a href="centre.html" id="est" onmouseover="estc()" onmouseout="estr()" >CENTRE ET EST</a></li>
+                    <li style="background-color: g"><a href="ouest.html">OUEST</a></li>
+                    <li style="background-color: g"><a href="tou.html"id="tou" onmouseover="touc()" onmouseout="tour()">NOURRITURES CONSOMMEES PAR TOUS LES IVOIRIENS </a></li>
+                 </ul>
+                 <h1 style="font-family: cursive;"> <MARQUEE BEHAVIOR="alternate">  tout savoir sur la culture culinaire ivoirienne </MARQUEE></h1>
+         </div>
+        </nav> 
+        <div class="row">
+		  <div class="col-ms-12 col-md-12">
+			<div class="thumbnail">
+		      <img src="css/imges/ban.jpg" width="500px" id="slider" style=" width:100%; height:500px;  padding-top: 100px; margin: auto 0 ">
+	     </div>
+       </div>
+     </div>
+
+
+<section1 style="float: center; background-color: #FF339C ; font-family: fantasy;">
+	<h2 style="background-color:  ; text-align: center;" id="lavie" onmouseover="">Pays situé dans l'ouest du continent AFRICAIN ,la cote d'ivoire est un pays qui regroupe en son sein plus de <span>60 ethnies</span> ,qui ont tous des habitudes culunaires tres differentes et variées.
+	Cet site vous aidera a cconnaitre assez sur l'habitude alimentaire des differentes peuples selon leur situation biographique.</h2>
+
+
+</section1>
+
+<footer>
+	<div class="container well" style="background-color: #FF4633">
+	<h2 style="background-color: #FFD133"><center>COTE D'IVOIRE: MON BEAU PAYS</center></h2>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="row">
+           <br>
+              <div class="col-md-4">
+                <center>
+                  <img src="css/imges/lili.png" class="img-circle" alt="the-brains">
+                  <br>
+                  <h4 class="footertext">IVORIANFOOL</h4>
+                  <p class="footertext">Blogue tres solicité pour ses bonnes articles.<br>
+                </center>
+              </div>
+              <div class="col-md-4">
+                <center>
+                  <img src="css/imges/lli.png" class="img-circle" alt="...">
+                  <br>
+                  <h4 class="footertext">PARTENAIRE 1</h4>
+                  <p class="footertext">Partenaire consequent.<br>
+                </center>
+              </div>
+              <div class="col-md-4">
+                <center>
+                  <img src="css/imges/llli.jpg" class="img-circle" alt="...">
+                  <br>
+                  <h4 class="footertext">Designer</h4>
+                  <p class="footertext">Marque by TIGUI.<br>
+                </center>
+              </div>
+            </div>
+            <div class="row">
+            <p><center><a href="#">Contact Stuff Here</a> <p class="footertext">Copyright 2014</p></center></p>
+        </div>
+    </div>
+</div>
+
+
+
+</footer>
+<script type="text/javascript">
+	var images=["css/imges/nordii.jpg","css/imges/brai2.jpg","css/imges/poul.jpg","css/imges/bbbb.jpg","css/imges/brai2.jpg","css/imges/foutou.jpg","css/imges/poi.jpg"];
+	var i=0;
+	 setInterval(function(){ 
+     document.getElementById('slider').src=images[i];
+     i++;
+     if(i==7) i=0;
+       },1500);
+    var x = document.getElementById('nor');
+    var y =document.getElementById('nor'); 
+ function chai(){     
+x.style.background="black";};
+function tru(){
+y.style.background="orange";
+};
+
+var p = document.getElementById('sud');
+    var o =document.getElementById('sud'); 
+ function sudc(){     
+p.style.background="yellow";};
+function sudr(){
+o.style.background="wheith";
+};
+
+var k= document.getElementById('est');
+    var m =document.getElementById('est'); 
+ function estc(){     
+k.style.background="green";};
+function estr(){
+m.style.background="#CAFF33";
+};
+var r = document.getElementById('tou');
+    var c =document.getElementById(''); 
+ function touc (){     
+r.style.background="red";};
+function tour (){
+c.style.background="purple";
+};
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
+
